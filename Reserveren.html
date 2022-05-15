@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,200;1,500&display=swap" rel="stylesheet">
+    <title>Reserveren | Café Revue</title>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="bg-img">
+            <div class="container">
+                <div class="topnav">
+                    <a href="index.html">Home</a>
+                    <a href="Menu.html">Menu</a>
+                    <a class="current" href="Reserveren.html">Reserveren</a>
+                    <a href="Contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section>
+    <h1 class="center">Reserveren</h1>
+    <hr>
+    <p class="center"> Vul het formulier hieronder in, je krijgt een mail ter bevestiging terug. Opgelet: geen bevestiging = geen reservatie.</p>
+    <hr>
+    </section>
+        <form>
+        <p>
+        <label for="Naam">Naam*: <input id="Naam" type="text" required>
+        </label>
+        </p>
+        <p>
+        <label for="Telefoonnummer">Telefoonnummer*: <input id="Telefoonnummer" type="tel" required>
+        </label>
+        </p>
+        <p>
+        <label for="e-mailadres">e-mailadres*: <input id="e-mailadres" type="email" required>
+        </label>
+        </p>
+        <p>
+        <label for="Personen">Aantal personen*: <input id="Personen" type="number" min="1" max="20" required>
+        </label>
+        </p>
+        <p>
+        <label for="Wanneer"> Wanneer*: <input id="Wanneer" type="datetime-local" required>
+        </label>
+        </p>
+        <p>
+        <input name="form" type="submit" value="Reserveer!">
+        </p>
+        </form>
+</main>
+
+<footer class="footer">
+    <small> &copy; <time datetime="2020">2020</time> Café Revue</small>
+</footer>
+</body>
+</html>
